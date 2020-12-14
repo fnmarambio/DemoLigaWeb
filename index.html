@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Liga CL</title>
+    <title>Demo Liga beta</title>
     
     <!--Fuentes-->
     <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"> 
@@ -27,7 +27,7 @@
           <div class="">
           <img src="img/logoDemoLiga.png" class="logo" alt="..." >
           </div>
-          <a class="navbar-brand" href="#">Demo Liga</a>
+          <a class="navbar-brand" href="#">Demo Liga BETA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -72,14 +72,156 @@
     <div class="portada">
     <img src="img/DemoLiga-BG8.png" class="img-fluid" alt="..." >
 </div>
-    <img src="img/DemoLiga-Torneos.png" class="img-fluid" alt="..." id="torneos">
+
+<!--Torneos-->
+<div id="torneos">
+ <!-- <img src="img/DemoLiga-Torneos.png" class="img-fluid" alt="..." id="torneos">-->
+
+
+ 
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/DemoLiga-BG8.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Torneos 1v1</h2>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/DemoLiga-BG8.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Torneo 3v3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/DemoLiga-BG8.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Torneo 5v5</h2>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+  
+</div>
+
+<!--Tarjetas Torneos-->
+<div class="row d-flex justify-content-evenly" id="participar">
+<div class="card" style="width: 18rem;">
+  <img src="img/logoDemoLiga.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Liga Bronce</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Participar</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="img/logoDemoLiga.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Liga Master</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Participar</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="img/logoDemoLiga.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Duelo con cuchillos</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Participar</a>
+  </div>
+</div>
+</div>
+
+<!--End Torneos-->
+
+ <!--Tabla Mejores Jugadores-->
+ <div class="topTier">
+ <div class="row d-flex justify-content-center">
+  <div class="col-8">
+
+  <table class="table table-borderless text-white">
+    <thead>
+      <tr class="text-white">
+        <th > Top Jugadores</th>
+       
+      </tr>
+      <tr class="text-white">
+        <th scope="col">#</th>
+        <th scope="col">Jugador</th>
+        <th scope="col">Torneos Jugados</th>
+        <th scope="col">MVP</th>
+        <th scope="col">Puntaje Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>7</td>
+        <td>2</td>
+        <td>3000</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>4</td>
+        <td>4</td>
+        <td>2590</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry the Bird</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1200</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>ShadowFro</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1200</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>El Pepe</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1200</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+ </div>
+
+<!--End TopTier-->
 
   <div class="iframe-container" id="aboutus">
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/RU-ocmMUYQE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   </div>
   
+ 
   </div>
+
+ 
 
 
 
